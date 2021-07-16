@@ -1,0 +1,44 @@
+import java.util.*;
+class frame6
+{
+public static void main(String[]args)
+{
+Scanner sc = new Scanner(System.in);
+int n;
+LinkedList<Integer>x1 = new LinkedList<Integer>();
+x1.add(10);
+x1.add(20);
+x1.add(30);
+x1.add(40);
+x1.add(50);
+System.out.println("Enter the value to search");
+x1.remove(2);
+System.out.println(x1);
+}
+}
+       
+       
+ import java.util.*;
+class frame3
+{
+public static void main(String[]args)
+{
+Scanner sc = new Scanner(System.in);
+int n;
+LinkedList<Integer>x1 = new LinkedList<Integer>();
+x1.add(10);
+x1.add(20);
+x1.add(30);
+x1.add(40);
+x1.add(50);
+System.out.println("Enter the value to search");
+int key = sc.nextInt();
+if(x1.contains(key))
+System.out.println("Element Found");
+else
+System.out.println("Element Not Found");
+}
+}
+      
+       
+              
